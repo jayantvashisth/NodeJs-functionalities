@@ -17,7 +17,7 @@ function App() {
         setConvertedContent(html);
     }, [editorState]);
 
-    console.log(convertedContent);
+    // console.log(convertedContent);
 
     function createMarkup(html) {
         return {
